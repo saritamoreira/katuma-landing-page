@@ -161,9 +161,16 @@ a.login:hover {
 .participate aside {
   margin-top: 60px;
 }
+.principles .title {
+  margin-bottom: 2rem;
+}
 .principles h5 {
   font-weight: bold;
-  margin-top: 30px;
+}
+.principles .svg-inline--fa {
+  font-size: 4rem;
+  color: hsl(284, 18%, 75%);
+  margin-bottom: 0.5rem;
 }
 .ofn {
   margin: 2rem 0;
