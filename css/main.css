@@ -6,9 +6,10 @@ body {
   line-height: 30px;
   color: #676767;
 }
-h1, h2, h3, h4, h5 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #3d3e44;
   line-height: 1.2em;
+  margin-bottom: 1rem;
 }
 .navbar {
   background-image: none;
@@ -84,12 +85,17 @@ a.login:hover {
   border-radius: 0px;
   background-color: transparent;
 }
+.features .jumbotron {
+  height: 500px;
+}
 .background {
   position: relative;
   background-color: #433349;
-  background-image: url('../img/background.jpg');
   background-size: cover;
   background-position: right;
+}
+.index .background {
+  background-image: url('../img/background.jpg');
 }
 .background .container { 
   padding-top: .5rem;
@@ -99,9 +105,10 @@ a.login:hover {
 }
 .jumbotron h1 {
   font-size: 46px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 0 20px;
   color: #fff;
+  letter-spacing: 0.05rem;
 }
 .jumbotron .subtitle {
   font-size: 20px;
@@ -191,6 +198,15 @@ a.login:hover {
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: 40px;
+}
+.subheader {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  margin-bottom: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  color: purple;
 }
 .footer {
   padding-bottom: 4rem;

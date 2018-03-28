@@ -88,5 +88,27 @@
     "languages": {
       "title": "Idiomes"
     }
+  },
+  "features": {
+    "header": {
+      "slogan": "Una plataforma per fer el salt d'escala"
+    },
+    "showcase": {
+      "map": {
+        "subtitle": "Mapa",
+        "title": "Troba productores i grups prop de casa",
+        "body": "Un mapa geolocalitza i visibilitza els grups de consum existents, es promou el contacte i l'adhesió de qualsevol persona, facilitant l'accés a un mercat alternatiu format per productores locals."
+      },
+      "network": {
+        "subtitle": "Xarxa",
+        "title": "Oblida't de tancar i enviar la comanda a la nit",
+        "body": "Els membres del grup fan les comandes des del seu s comptes i el productor pot consultar la comanda que ha fet el grup. Ja no cal enviar-li cap full de càlcul."
+      },
+      "catalog": {
+        "subtitle": "Gestió",
+        "title": "Rep comandes en un sol format i per un sol canal",
+        "body": "Ja no cal que estiguis pendent del WhatsApp, correu eletrònic o telèfon per saber quines comandes has de servir la propera setmana. Consulta que ha demanat cada grup a l'informe de comandes."
+      }
+    }
   }
 }
