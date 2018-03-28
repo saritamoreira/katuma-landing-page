@@ -11,6 +11,10 @@ body {
   line-height: 1.2em;
   margin-bottom: 1rem;
 }
+.h2, h2 {
+  color: #433349;
+  font-weight: bold;
+}
 .navbar {
   background-image: none;
   border-radius: 0px;
@@ -86,7 +90,7 @@ a.login:hover {
   background-color: transparent;
 }
 .features .jumbotron {
-  height: 500px;
+  height: 450px;
 }
 .background {
   position: relative;
@@ -167,9 +171,8 @@ a.login:hover {
 .container.participate {
   padding-top: 30px;
 }
-.row h2 {
-  color: #433349;
-  font-weight: bold;
+.container.showcase {
+  padding: 2rem 0;
 }
 .participate aside {
   margin-top: 60px;

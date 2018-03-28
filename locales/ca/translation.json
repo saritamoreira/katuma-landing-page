@@ -91,7 +91,9 @@
   },
   "features": {
     "header": {
-      "slogan": "Una plataforma per fer el salt d'escala"
+      "slogan": "Una plataforma per fer el salt d'escala",
+      "subtitle": "Simplifica la gestió de la teva entitat",
+      "body": "Reduir el temps que invertim en les tasques feixugues del dia a dia ens permet centrar-nos en el que aporta valor."
     },
     "showcase": {
       "map": {
