@@ -10,10 +10,9 @@
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width">
 
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="css/main.css">
-      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
       <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
       <!--[if lt IE 9]>
@@ -27,17 +26,28 @@
 
 
   <div class="background">
-    <div class="navbar container">
-      <div class="header">
-        <a class="brand" href="/">Katuma</a>
-        <ul class="nav">
-          <li><a data-i18n="nav.features" href="/features.html">Funcionalitats</a></li>
-          <li><a data-i18n="nav.map" href="https://alpha.katuma.org/map">Mapa</a></li>
-          <li><a data-i18n="nav.community" href="http://community.coopdevs.org/tags/katuma">Comunitat</a></li>
-          <li><a data-i18n="nav.login" class="login" href="https://alpha.katuma.org/">Entra</a></li>
+    <nav class="navbar navbar-expand-md container">
+      <a class="navbar-brand" href="/">Katuma</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="toggler fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" data-i18n="nav.features" href="/features.html">Funcionalitats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="nav.map" href="https://alpha.katuma.org/map">Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="nav.community" href="http://community.coopdevs.org/tags/katuma">Comunitat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link button secondary-button login" data-i18n="nav.login" href="https://alpha.katuma.org/">Entra</a>
+          </li>
         </ul>
       </div>
-    </div>
+    </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -100,7 +110,7 @@
     </div>
   </div>
 
-  <div class="container goteo">
+  <div class="goteo">
     <div class="row image-block">
       <div class="col-lg-6 widget text-center">
         <iframe frameborder="0" height="492px" src="https://www.goteo.org/widget/project/katuma" width="300px" scrolling="no"></iframe>
@@ -108,9 +118,9 @@
       <aside class="col-lg-5">
         <h2 data-i18n="features.goteo.title">Ens ajudes a desenvolupar noves funcionalitats?</h2>
         <p data-i18n="features.goteo.body">Amb aquesta campanya a Goteo seguirem desenvolupant Katuma, acompanyarem a grups i productores en la seva implantació i millorarem la nostra comunicació perquè Katuma arribi a tothom.</p>
-        <div>
-          <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-widget','https://www.goteo.org/project/katuma'); return false;" class="button negative-button" data-i18n="features.goteo.button" href="https://www.goteo.org/project/katuma">Fes una donació</a>
-          <a class="button login" data-i18n="features.goteo.secondary-button" href="https://alpha.katuma.org/">Entra</a>
+        <div class="button-group">
+          <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-widget','https://www.goteo.org/project/katuma'); return false;" class="button negative-button" data-i18n="goteo.button" href="https://www.goteo.org/project/katuma">Fes una donació</a>
+          <a class="button secondary-button login" data-i18n="goteo.secondary-button" href="https://alpha.katuma.org/">Entra</a>
         </div>
       </aside>
     </div>
@@ -120,7 +130,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-1 list">
-          <a class="brand" href="#">Katuma</a>
+          <a class="navbar-brand" href="#">Katuma</a>
           <div class="coopdevs">
             <p data-i18n="footer.developed.title">Impulsat per</p>
             <a href="http://coopdevs.org">
@@ -200,5 +210,6 @@
     }
 
   </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
