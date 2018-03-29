@@ -30,13 +30,10 @@ body {
 .navbar-nav .nav-link {
   font-size: 1rem;
 }
-.login {
-  border: 2px solid white;
-  border-radius: 6px;
-  margin-left: 8px;
-}
 .navbar-expand-md .navbar-nav .nav-link.login {
   padding: 0.2rem 1rem;
+  margin-top: 4px;
+  margin-left: 8px;
 }
 .toggler {
   color: #fff;
@@ -73,16 +70,17 @@ a.login:hover {
 .button.negative-button {
   background-color: #fff;
   color: #000;
+  border: 2px solid white;
 }
 .button.negative-button:hover {
   background-color: #e5e5e5;
 }
 .button.secondary-button {
-  border: 2px solid #433349;
-  color: #433349;
-  border-radius: 6px;
-  margin-left: 8px;
   background-color: transparent;
+  border: 2px solid white;
+}
+.button-group .button {
+  margin-right: 8px;
 }
 .jumbotron {
   font-weight: 300;
@@ -239,7 +237,7 @@ a.login:hover {
 .footer p i {
   margin-right: 5px;
 }
-.footer .brand {
+.footer .navbar-brand {
   color: #433349;
 }
 .footer a {
@@ -271,8 +269,11 @@ a.login:hover {
     padding: 0.1rem 1rem;
   }
   .login {
-    width: 74px;
     margin: 0.5rem 0;
+  }
+  .navbar-expand-md .navbar-nav .nav-link.login {
+    margin-left: 0;
+    margin-top: 0.7rem;
   }
   .goteo aside {
     margin-top: 2rem;
